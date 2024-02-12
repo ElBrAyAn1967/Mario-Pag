@@ -6,23 +6,16 @@
     text-decoration: none;
     list-style: none;
 }
-
-
-  body{
-    font-family: 'Karla', sans-serif;
-font-family: 'Roboto', sans-serif;
-background-image:url(Imagenes/Escuela.jpg);
+body{
+font-family: 'Karla','Roboto' sans-serif;
+/*background-color: #c5a95c ;*/
+background-image: url(Imagenes/fondo5.png);
 background-repeat: no-repeat;
-background-attachment: fixed;
 background-size:cover;
 }
-
-
-
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .container{/*MODIFICAR EL CONTENEDOR PRINCIPAL*/
     max-width: 1350px;
     margin: 0 auto;
@@ -30,10 +23,8 @@ p{
 .header{
     min-height: 70vh;
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
-
 .menu{
     position: absolute;
     top: 0;
@@ -42,9 +33,9 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*DEGRADAR*/background: rgba(63, 63, 63, 0.8);
+    background: rgba(63, 63, 63, 0.5);/*DEGRADADO*/
+   /* background-color: #730220; COLOR DE MENU DE LA IMAGEN */
 }
-
 .logo img{
     width: 60px;
 }
@@ -74,7 +65,7 @@ p{
 }
 .menu .navbar ul li a {
     font-size: 18px;
-    padding: 30px;/*TAAÑO DEL MENU*/
+    padding: 30px;/*TAMAÑO DEL MENU*/
     color:#f2f2f2;/*COLOR DE LETRA*/
     display: block;
     font-weight: bold;
@@ -92,45 +83,37 @@ p{
 }
 .menu-icono {
     width: 30px;
-   
 }
 .menu label{
     cursor: pointer;
     display: none;
-    
 }
 .menu-icono:hover{
     background: #f2f2f258;
     box-shadow:0 0 100px #f2f2f258 ,0 0 20px #f2f2f258   , 0 0 30px #f2f2f258 ;/*imagen de las 3 lineas*/
     border-radius: 5px;
 }
-
 /*CONTENIDO INFERIOR */
-
 .header-content{
     padding: 100px 0;
     display: flex;
     align-items: center;
-   /* background-image:url(Imagenes/a1.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:contain;*/
 }
 .header-txt{
     width: 50%;
     padding-right: 100px;
     color: #f2f2f2;/*COLOR DEL PRINCIPAL*/
+    margin-left: 30px;
 }
 .header-txt h1{
     font-size: 100px;
-    line-height: 150px;
-    margin-bottom: 25px;
+    line-height: 90px;
+    margin-bottom: 25px;   
 }
 p{
     font-size: 20px;/*tamaño del texto */
     margin-bottom: 35px;
     text-align:justify;
-
 }
 /*BOTON DEL CONTENIDO ABAJO DEL MENU*/
 .btn-1{
@@ -145,30 +128,24 @@ p{
     background: #dd013b;
     box-shadow:0 0 100px #dd013b ,0 0 20px #dd013b, 0 0 30px #dd013b ;
 }
-
 /*IMAGEN DEL CONTENIDO INFERIOR AL MENU*/
 .header-img{
     width: 50%;
     text-align: center;
-
 }
 .header-img img{
     width: 400px;
 }
-
-
-
 /*SEGUNDA PARTE */
-
 .about{
     padding: 100px 0;
-    background-color: rgb(5, 106, 0);/*COLOR DEL FONDO SOBRE EL CURSO*/
+    margin-right: 30px;
+/*    background-color: rgb(5, 106, 0);/*COLOR DEL FONDO SOBRE EL CURSO*/
 }
 .about-content{
     display: flex;
     position: relative;
 }
-
 .ab1{
     position:absolute;
     width: 50px;
@@ -187,7 +164,6 @@ p{
     position: absolute;
     width: 100px;
     right: 0;
-
 }
 .about-img{
     width: 50%;
@@ -206,13 +182,10 @@ h2{/*configuracion de los H2*/
     color:#f2f2f2;/*TEXTO DEL SOBRE EL CURSO*/
     margin-bottom: 25px;
 }
-
-
-
 .btn-2{
     display: inline-block;
-    padding: 13px 45px;
-    font-size: 18px;
+    padding: 17px 35px;
+   /* font-size: 18px;*/
     background-color:#8b1434;/*COLOR DEL CONTENEDOR*/
     color:#f2f2f2;/*COLOR DEL TEXTO INFORMACION*/
     border-radius: 25px;
@@ -223,21 +196,12 @@ h2{/*configuracion de los H2*/
     background: #dd013b;
     box-shadow:0 0 100px #dd013b ,0 0 20px #dd013b   , 0 0 30px #dd013b ;/*COLOR DEL BOTON DE CONFIRMACION*/
 }
-
-
-
-
-
-
 /*TERCERA PARTE */
-
-
 .information{
     padding: 100px 400px 400px 400px;
     text-align: center;
-    background-color: violet;/*color del contenedor de informacion elemental*/
+  /*  background-color: violet;/*color del contenedor de informacion elemental*/
 }
-
 .information-content{
     position: relative;
     color: #f2f2f2;/*INFORMACION DEL LOREM DE LA TABLA */
@@ -263,14 +227,12 @@ h2{/*configuracion de los H2*/
     top: 230px;
     rotate: 220deg;
 }
-
 .contact{
     padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .contact-table{
     padding: 25px;
     box-shadow: 0 0 20px rgb(255, 255, 255);/*ILUMUINACION DE LA TABLA*/
@@ -288,10 +250,8 @@ h2{/*configuracion de los H2*/
     color: rgb(2, 101, 200);/*COLOR DEL TITULO*/
     margin-bottom: 25px;
 }
-
 .table{
-    text-align: left;
-    
+    text-align: left;   
 }
 .Escuelas{
     border-color: collapse;
@@ -310,15 +270,10 @@ color: #131212a5;/*color del contenido de la tabla*/
 }
 .Escuelas th {
     padding: 12px 0 ;
-    
 }
-
-
 /*FORMULARIO*/
-
-
 form{
-    display: flex;
+    display:inline-block;
 }
 .campo{
     padding: 17px 35px;
@@ -330,10 +285,7 @@ form{
 }
 .campo::placeholder{
     color:#f2f2f2;/*TEXTO DEL SUB*/
-
 }
-
-
 .form-content{
     padding: 100px 0 70px 0;
     text-align: center;
@@ -344,36 +296,17 @@ form{
     margin-bottom: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
     border-top: 2px solid #E8E8E8;
-    padding: 0;
-        background-image: url(Imagenes/a.png);
+    padding: 0;   
+        background-image: url(Imagenes/fufu.png);
         background-repeat: no-repeat;
         background-size:cover;
-
 }
 .cortina{
     z-index: 5;
     background: rgba(63, 63, 63, 0.8);
+    padding-top: 20px;
 }
 .footer-links{
     display: flex;
@@ -391,7 +324,6 @@ form{
     width: 30px;
     margin: 10px;
 }
-
 .link h3{
     font-size: 22px;
     color:#f1cd04;/*COLOR MENU BARRA BAJA*/
@@ -415,37 +347,12 @@ form{
     color:#f2f2f2;/*P DE LA UBICACION*/
     font-size: 16px;
     margin: 0;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .spotify img:hover{/*FACEBOOK*/
     background: #24fd15;
     box-shadow:0 0 100px #24fd15 ,0 0 20px #24fd15   , 0 0 30px #24fd15 ;
     border-radius: 25px;
 }
-
 .discord img:hover{/*FACEBOOK*/
     background: #fd15e2;
     box-shadow:0 0 100px #fd15e2 ,0 0 20px #fd15e2   , 0 0 30px #fd15e2 ;
@@ -456,42 +363,6 @@ form{
     box-shadow:0 0 100px #fd1515 ,0 0 20px #fd1515   , 0 0 30px #fd1515 ;
     border-radius: 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width:860px){
    
     /*MENU DESPLEGABLE*/
@@ -522,7 +393,6 @@ form{
     #menu:checked ~ .navbar{
         display: initial;
     }
-
     /*SEGUNDA PARTE*/
     .header{
         min-height: 0vh;
@@ -539,8 +409,6 @@ form{
     .header-txt h1{
         font-size: 70px;/*tamaño de letra*/
         line-height:150px ;/*altura de letra*/
-
-    
     }
     .header-img{
         width: 100%;
@@ -549,7 +417,6 @@ form{
         width: 220px;
     }
     /*TERCERA*/
-
     .about{
         padding: 30px;
     }
@@ -575,11 +442,9 @@ form{
         line-height: 80px;
     }
     /*CUERTA*/
-
     .information{
         padding: 30px 30px 100px 30px;
     }
-    
     .in1,.in2,.in3{
         display: none;
     }
@@ -601,8 +466,6 @@ form{
         margin-bottom: 20px;
     }
     /*SEXTA PARTE*/
-
-  
     .footer-links{
         flex-direction: column;
         text-align: center;
@@ -610,5 +473,7 @@ form{
     .link-img{
         margin-bottom: 15px;
     }
+    .cortina{
+        padding-top: 20px;
+    }
 }
-
