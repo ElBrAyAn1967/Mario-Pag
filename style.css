@@ -385,11 +385,15 @@ form{
     z-index: 5;
     background: rgba(63, 63, 63, 0.8);
     padding-top: 20px;
+    
+
 }
 .footer-links{
     display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 .link-img{
     text-align: center;
@@ -425,6 +429,9 @@ form{
     color:#f2f2f2;/*P DE LA UBICACION*/
     font-size: 16px;
     margin: 0;
+    margin-right: 25px;
+    margin-left: 25px;
+
 }
 .spotify img:hover{/*FACEBOOK*/
     background: #24fd15;
