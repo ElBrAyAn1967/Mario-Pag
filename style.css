@@ -16,6 +16,15 @@ background-size:cover;
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+
+
+
+
+
 .container{/*MODIFICAR EL CONTENEDOR PRINCIPAL*/
     max-width: 1350px;
     margin: 0 auto;
@@ -93,6 +102,19 @@ p{
     box-shadow:0 0 100px #f2f2f258 ,0 0 20px #f2f2f258   , 0 0 30px #f2f2f258 ;/*imagen de las 3 lineas*/
     border-radius: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*CONTENIDO INFERIOR */
 .header-content{
     padding: 100px 0;
@@ -103,7 +125,8 @@ p{
     width: 50%;
     padding-right: 100px;
     color: #f2f2f2;/*COLOR DEL PRINCIPAL*/
-    margin-left: 30px;
+  /* margin-left: 30px;
+   margin-right: 30px; */
 }
 .header-txt h1{
     font-size: 100px;
@@ -115,6 +138,14 @@ p{
     margin-bottom: 35px;
     text-align:justify;
 }
+
+
+
+
+
+
+
+
 /*BOTON DEL CONTENIDO ABAJO DEL MENU*/
 .btn-1{
     display: inline-block;
@@ -136,9 +167,22 @@ p{
 .header-img img{
     width: 400px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 /*SEGUNDA PARTE */
 .about{
     padding: 100px 0;
+    margin-left: 30px;
     margin-right: 30px;
 /*    background-color: rgb(5, 106, 0);/*COLOR DEL FONDO SOBRE EL CURSO*/
 }
@@ -196,6 +240,21 @@ h2{/*configuracion de los H2*/
     background: #dd013b;
     box-shadow:0 0 100px #dd013b ,0 0 20px #dd013b   , 0 0 30px #dd013b ;/*COLOR DEL BOTON DE CONFIRMACION*/
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*TERCERA PARTE */
 .information{
     padding: 100px 400px 400px 400px;
@@ -271,6 +330,25 @@ color: #131212a5;/*color del contenido de la tabla*/
 .Escuelas th {
     padding: 12px 0 ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FORMULARIO*/
 form{
     display:inline-block;
@@ -363,6 +441,16 @@ form{
     box-shadow:0 0 100px #fd1515 ,0 0 20px #fd1515   , 0 0 30px #fd1515 ;
     border-radius: 25px;
 }
+
+
+
+
+
+
+
+
+
+
 @media(max-width:860px){
    
     /*MENU DESPLEGABLE*/
@@ -405,6 +493,7 @@ form{
         padding-right: 0;
         text-align: center;
         margin-bottom: 15px;
+         
     }
     .header-txt h1{
         font-size: 70px;/*tamaño de letra*/
