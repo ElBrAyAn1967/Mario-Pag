@@ -374,6 +374,26 @@ form{
     margin-bottom: 25px;
 }
 
+
+
+
+.Ubicacion{
+    display: flex;
+    
+    
+}
+.datos{
+    
+    justify-content: flex-end;
+}
+.mapa{
+    justify-content: flex-start;
+}
+
+
+
+
+
 .footer{
     border-top: 2px solid #E8E8E8;
     padding: 0;   
@@ -421,9 +441,10 @@ form{
     color:#fde676;/*BARRA BAJA */
 }
 .footer-copy{
-    padding: 25px 0;
+    padding: 15px 0;
     text-align: center;
     border-top: 1px solid #f2f2f2;/*LINEA DIVISORIA PARA UBICACION*/
+
 }
 .footer-copy p{
     color:#f2f2f2;/*P DE LA UBICACION*/
@@ -431,6 +452,7 @@ form{
     margin: 0;
     margin-right: 25px;
     margin-left: 25px;
+    text-align: center;
 
 }
 .spotify img:hover{/*FACEBOOK*/
